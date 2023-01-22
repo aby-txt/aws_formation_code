@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Participants</title>
+        <link rel="stylesheet" href="css/css1.css">
+    </head>
+    <body>
+        <div>
+            
+        </div>
+        <div class="wrapper">
+            <h4>Ajouter un participant</h4>
+            <form action="form.php" method="post">
+                <div class="input-box"> 
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="entrez votre nom..." required/>
+                </div>
+                <div class="input-box">
+                    <label for="name">Prénoms :</label>
+                    <input type="text" id="name" name="pname" placeholder="entrez votre prénom..." required/>
+                </div>
+                <div class="input-box">
+                    <label for="name">Numéro de téléphone :</label>
+                    <input type="text" id="name" name="nb" placeholder=" ex.: 0102030405" required/>
+                </div>
+                <div class="input-box">
+                    <label for="mail">Adresse E-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="mail" placeholder="entrez votre adresse email..."/>
+                </div>
+                <div style="text-align: center;">
+                    <input type="submit" value="Ajouter" id="ajout"/>
+                    <button><a href="index.php" style="text-decoration: none;">Annuler</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
